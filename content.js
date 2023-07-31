@@ -1,1 +1,1 @@
-alert("LOE RAAMATUT!!!");
+alert(${raamatutext});
