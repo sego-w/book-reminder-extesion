@@ -1,2 +1,2 @@
-let raamatutext = "chomp";
-alert(${raamatutext});
+
+alert("Loe raamatut!!!");
