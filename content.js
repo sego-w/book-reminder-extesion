@@ -1,2 +1,2 @@
-let raamatutext = "chomp"
+let raamatutext = "chomp";
 alert(${raamatutext});
