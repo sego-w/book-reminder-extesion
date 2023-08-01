@@ -1,2 +1,3 @@
 
-alert("Loe raamatut!!!");
+//alert("Loe raamatut!!!");
+
