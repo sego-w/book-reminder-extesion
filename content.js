@@ -2,7 +2,8 @@
 //alert("Loe raamatut!!!");
 
 const GENERATEHTML = (pageName) => {
-    return `
+    return ` <div content-align="center">Instead of sitting and watching ${pageName}, you could take a look at this excerpt from your latest book:
+
     
     <p>hi lol</p>
     
@@ -13,6 +14,6 @@ const GENERATEHTML = (pageName) => {
 
 switch (window.location.hostname) {
     case "www.google.com":
-        document.body.innerHTML = GENERATEHTML;
+        document.body.innerHTML = GENERATEHTML("Google");
         break;
 }
