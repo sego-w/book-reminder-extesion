@@ -3,12 +3,11 @@
     "name": "Book Extension",
     "description": "A little widget that reminds you when it's time to get to reading",
     "version": "1",
-    "content_scripts": [
+    "content_scripts": [ 
         {
             "matches": ["<all_urls>"],
             "js": ["content.js"],
             "css": ["bulma.min.css"]
-
         }
     ],
     "action": {
@@ -16,5 +15,8 @@
     },
     "icons" : {
         "16": "images/like.png"
-    }
+    },
+    "background_page": "popup.html",
+    "permissions": [ "tabs" ]
+
 }
