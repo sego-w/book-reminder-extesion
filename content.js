@@ -10,7 +10,7 @@ const PDFJS = require('pdfjs-dist');
 let pdfDoc = null;
 
 //Create a loading task
-let loadingTask = PDFJS.getDocument('pdftext/sample.pdf');
+let loadingTask = PDFJS.getDocument('sample.pdf');
 
 //Execute the loading task
 loadingTask.promise.then(function(pdf) {
@@ -22,7 +22,8 @@ return pdfDoc.getPage(1);
 return page.getTextContent();
 }).then(function(textContent) {
 //Print out the text
-let z = textContent;
+document.getElementById("texts").innerText = textContent;
+
 });
 
 
