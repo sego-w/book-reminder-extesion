@@ -1,0 +1,18 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(font/DeterminationMonoWebRegular-Z5oq.ttf);
+    src: url(font/DeterminationSansWebRegular-369X.ttf);
+}
+body {
+    text-decoration-color: black;
+    
+}
+h1 {
+    font-family: "DeterminationMonoWebRegular-Z5oq", sans-serif;
+    text-decoration-color: black;
+    
+}
+h2 {
+    font-family: "DeterminationSansWebRegular-369X.ttf", sans-serif;
+    text-decoration-color: black;
+}
